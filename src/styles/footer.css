@@ -1,0 +1,144 @@
+.footer-container-section {
+    background-color: #1A1A1A;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.footer-project h2 {
+    font-family: 'Kumbh Sans';
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 59.53px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-contact-btn {
+    background-color: #FFFFFF;
+    color: #1A1A1A;
+    font-family: 'Kumbh Sans';
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px;
+    width: 183px;
+    height: 42px;
+    padding: 11px 12px 11px 12px;
+    gap: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 32px;
+}
+
+.footer-contact img {
+    width: 172px;
+    margin-top: 69px;
+    height: 17.97px;
+
+}
+
+.footer-contact h1 {
+    font-family: 'Kumbh Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.32px;
+    text-align: center;
+    color: #FFFFFFCC;
+    margin-top: 20px;
+
+}
+
+.footer-web {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-p p {
+    color: #FFFFFF99;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    font-family: 'Kumbh Sans';
+}
+
+
+@media (max-width: 425px) and (min-width:320px) {
+    .footer-project h2 {
+        font-size: 22px;
+        line-height: 30px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .footer-connect-btn {
+        font-size: 16px;
+        padding: 8px 10px;
+    }
+
+    .footer-contact h2 {
+        font-size: 14px;
+        margin-top: 5%;
+        margin-bottom: 10px;
+    }
+
+    .footer-contact h1 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer-web {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-p {
+        margin-top: 5%;
+    }
+
+    .footer-p p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 768px) {
+    .footer-project h2 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+
+    .footer-container {
+        max-width: 90vw;
+    }
+
+    .footer-web {
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+
+    .footer-p p {
+        font-size: 16px;
+        font-weight: 400;
+        display: flex;
+        font-family: 'Kumbh Sans';
+    }
+}
+
+/* model.css */
+.modal-container div,
+.modal-container p,
+.modal-container h1,
+.modal-container h2 {
+    text-align: left;
+
+}

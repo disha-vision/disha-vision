@@ -1,0 +1,162 @@
+.apartment-container {
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.apartment-section {
+    padding-top: 8%;
+    max-width: 90vw;
+    margin-bottom: 5%;
+}
+
+.apartment-image {
+    width: 100%;
+}
+
+.apartment-image {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.devi-image {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+
+.apartment-details {
+    margin-top: 20px;
+}
+
+.apartment-title {
+    font-family: 'Kumbh Sans';
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39.69px;
+    text-align: left;
+    color: #1A1A1A;
+}
+
+.apartment-location {
+    display: flex;
+    margin-top: 10px;
+    gap: 16px;
+    font-family: 'Kumbh Sans';
+    color: #888888;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.8px;
+    text-align: left;
+}
+
+.apartment-details span {
+    white-space: nowrap;
+}
+
+.apartment-description {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Kumbh Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.8px;
+    text-align: left;
+    color: #888888;
+}
+
+.adagga-image {
+    margin-bottom: 20%;
+}
+
+
+.apartment-client p{
+    font-family: 'Kumbh Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 39.69px;
+    text-align: left;
+    color: #888888;
+}
+
+
+.details-section {
+    margin-top: 20px;
+
+}
+
+.details-section h3 {
+    font-family: 'Kumbh Sans';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 39.69px;
+    text-align: left;
+    color: #1A1A1A;
+}
+
+
+.details-section ul p {
+    margin-bottom: 5px;
+    font-family: 'Kumbh Sans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20.8px;
+    color:  #888888;
+}
+
+/* Responsive Styles for Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+    .apartment-container {
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+
+    .apartment-section {
+        padding-top: 25%;
+    }
+
+    .apartment-image,
+    .devi-image {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .apartment-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .apartment-location {
+        font-size: 14px;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .apartment-description {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 20px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .apartment-details {
+        margin-top: 16px;
+    }
+
+    .adagga-image {
+        margin-bottom: 15%;
+    }
+}
+
+@media (max-width:1024px) and (min-width:768px) {
+    .apartment-container {
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+
+    .apartment-section {
+        padding-top: 15%;
+    }
+}

@@ -1,0 +1,8 @@
+@import "~@fontsource/kumbh-sans/index.css";
+
+body {
+  margin: 0;
+  font-family: 'Satoshi', sans-serif;
+  font-family: 'Test Domaine Display', sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;
+}

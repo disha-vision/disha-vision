@@ -48,7 +48,7 @@ const Navbar = () => {
                 href="/projects"
                 className={isActive("/projects") ? 'active' : ''}
               >
-                Project-s
+                Projects
               </a>
             </li>
             <li>

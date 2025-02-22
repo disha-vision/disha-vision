@@ -940,6 +940,8 @@
     .projects-grid {
         grid-template-columns: repeat(2, 1fr);
         padding: 2px;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .grid-item {
@@ -985,17 +987,19 @@
     }
 
 
-    
+
     .grid-item:nth-child(13),
     .grid-item:last-child {
-        grid-column: 1 / -1; 
-        justify-self: center;  
-        text-align: center; 
+        grid-column: 1 / -1;
+        justify-self: center;
+        text-align: center;
         margin: 0;
         border-left: none;
     }
-    .projects-grid .grid-item:nth-child(13){
+
+    .projects-grid .grid-item:nth-child(13) {
         border-right: none;
+        border-left: none;
     }
 
 

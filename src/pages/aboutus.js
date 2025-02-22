@@ -6,8 +6,7 @@ import { useState, useRef } from "react";
 import "swiper/css";
 import "swiper/css/autoplay";
 import about_1 from "../assets/about_us_man.png";
-import video1 from "../assets/videos/video1.mp4";
-import video2 from "../assets/videos/video2.mp4";
+import video1 from "../assets/videos/DishaVision-about.mp4";
 
 const sliderData = [
   {
@@ -15,13 +14,7 @@ const sliderData = [
     type: "video",
     src: video1,
     alt: "Video Thumbnail",
-  },
-  {
-    id: 2,
-    type: "video",
-    src: video2,
-    alt: "Video Thumbnail 2",
-  },
+  }
 ];
 
 export default function ProfileSection() {
